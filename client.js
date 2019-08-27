@@ -39,5 +39,31 @@ const employees = [
 
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
+function employeeBonus (employee) {
+  let bonus = '';
 
+  for (i=0; i<employee.length; i++) {
+    if (employee.reviewRating = 3) {
+      bonus = 4;
+    }
+    else if (employee.reviewRating = 4) {
+      bonus = 6;
+    }
+    else if (employee.reviewRating = 5) {
+      bonus = 10;
+    }
+      else {
+      
+    }
+
+
+
+
+  }
+
+
+
+
+
+}
 console.log( employees );
